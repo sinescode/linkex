@@ -451,7 +451,7 @@ public:
                 }
                 
                 if (!href.empty()) {
-                    std::string fullUrl = URLUtils::join(baseUrl_, href);
+                    std::string fullUrl = URLUtils::join("https://demonicscans.org", href);
                     chapterLinks_.push_back(fullUrl);
                 }
                 
